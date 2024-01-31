@@ -1,0 +1,26 @@
+Master-Detail vs Look Up
+——————————————————————————————————————————
+Master-Detail (ie: parent-child) relationship is stronger and more tightly coupled than a lookup.
+
+	1. Child cannot exist without a parent 
+	2. child inherits the same security settigns from parent
+	3. cascade delete (deleting a parent deleted all child records)
+	4. standard objects cannot be the child of custom objects
+	5. child can only have up to 2 master detail relationships (ie: 2 parents)
+	6. roll up summary (count, sum, min max)
+		-count: the total number of child records related to the parent.
+		-sum: The total value of a field on the child records, such as the total cost.
+		-max: The highest value of a field across the child records, such as the most expensive cost.
+		-min: The lowest value of a field across the child records, such as the least expensive cost.
+——————————————————————————————————————————
+Lookups Relationship: a lookup is a more loosely coupled relationship between objects.
+
+	1. the child’s behaviors aren’t as reliant on the parent object
+	2. a child isn’t required to have a parent by default (although you can make it requried)
+	3. although there isnt a default roll up summary, you can still show that summary data through reports and dashboard and if you want to see it on the actual parent object, you can use apps on the app exchange that can create them for you 
+		EX: Rollup Helper
+	4. custom objects can only have up to 40 lookup parents
+		standatd objects can have up to 25 lookup parents
+
+——————————————————————————————————————————
+Links: https://portstbd.com/master-detail-vs-lookup-relationships-in-salesforce/#:~:text=In%20Summary&text=To%20recap%3A%20a%20master%2Ddetail,can%20exist%20without%20a%20parent.

@@ -1,0 +1,8 @@
+Network IP Access (Security -> Network Access)
+——————————————————————————————————————————
+This is an org level setting
+
+This is a list of IP addresses that the org trusts. If a user logs in from one of these IPs, then the user doesnt need to confirm their identity 
+	(ex: a code sent to their phone)
+
+——————————————————————————————————————————

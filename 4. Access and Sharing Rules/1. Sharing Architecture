@@ -1,0 +1,20 @@
+Sharing Architecture:
+——————————————————————————————————————————
+Salesforce starts with restrictive access and you provide wider access
+
+1. Permission Sets (most restrictive)
+2. Profile 
+3. Org Wide Defaults
+4. Role Hierachy (from top to bottom)
+5. Sharing Rules (lateral: ie sharing people on the same level)
+6. Manual Sharing (flexible, can share anywhere)
+7. Team Access
+8. Territory Hierarchy Access (widest access)
+——————————————————————————————————————————
+Profile level changes override the organization session settings.
+
+Ideally, you should have the most strict rules as your org wide defaults and open them up based on other sharing concepts (permission sets, profiles,etc)
+
+Read the below document for more information on all the components and best practices:
+https://developer.salesforce.com/docs/atlas.en-us.dat.meta/dat/dat_components.htm
+——————————————————————————————————————————

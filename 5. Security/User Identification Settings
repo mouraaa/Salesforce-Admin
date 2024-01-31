@@ -1,0 +1,13 @@
+User Identification Settings
+——————————————————————————————————————————
+Identity -> Identity Verification
+
+Control how and when users are prompted to verify their identity 
+
+EX: text, email, geolocation, etc
+
+You can also require a higher assurance level of security or block users altogether if users try to do certain things when already logged in. This is commonly used if someone is getting fired and they might export and print dashboards, leads, etc
+——————————————————————————————————————————
+Identity Verification History
+
+Useful to see if theres any verification attempts that are failing to see where its coming from.

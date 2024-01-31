@@ -1,0 +1,31 @@
+Page Layout Customization
+——————————————————————————————————————————
+Page layouts determine which fields, buttons, lists, actions, etc are displayed to your users by profile on a record. 
+	ie: fields can be added, removed, reordered, etc
+
+You can create a new page layout or update an existing one in 2 ways:
+	1. object managet -> object -> page layouts
+	2. go to the actual object, click the gear icon on the top right and click edit page. Then click the details setion of the page and select the layout you will edit on the right hand of the screen and go to the information secton and start dragging items
+
+Note: you are not editing the lightning page. the lightning page is the layer above the page layout
+——————————————————————————————————————————
+Tab Key Order:
+
+You can change the tab key order (clicking tab takes you up and down or left and right) by hovering to the right and a gear icon will appear.
+
+Remember, you haven't made any changes to the lightning page, you've only made changes to the underlying page layout. 
+——————————————————————————————————————————
+Removing a field from page layout:
+
+Its not best practice to remove a field from a page layout for security reasons. This is because although it would be remvoed from the page layout, users can find it in different ways 
+	(ex: creating reports, filtering records based on the removed field in list view, or hovering over a related list and if that related list shows the removed field, etc)
+
+Instead, change it through field level security
+
+Essentially, removing a field from the page layout has more to do with the user experience than security concerns. 
+——————————————————————————————————————————
+Page Layouts an be assigned at different levels.
+	1. Org Default: all [ex: account record] pages in any app will take this new page
+	2. App Default: a specific app will have the new [ex: account record] page no matter the profile
+	3. App and Profile: specfic profiles in a specific app will have the updated [ex: account record page] page
+——————————————————————————————————————————

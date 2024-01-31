@@ -1,0 +1,15 @@
+Delegated Groups: (Security -> Delegated Administration)
+——————————————————————————————————————————
+Use delegated administration to assign limited admin privileges to users in your org who aren’t administrators. 
+
+EX: You want the Customer Support team manager to manage users in the Support Manager role and all subordinate roles. Create a delegated admin for this purpose so that you can focus on other administration tasks
+
+The primary functions of a delegated administrator include:
+	-creating and editing users
+	-resetting passwords for users
+	-unlocking users
+	-assigning users to specified profiles
+	-logging in as a user who has granted login access to the administrator.
+	-managing custom objects created by an administrator
+	-setting quotas, creating default opportunity teams, and creating personal groups for those users
+——————————————————————————————————————————

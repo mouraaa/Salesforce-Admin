@@ -1,0 +1,14 @@
+Search Column Layout:
+——————————————————————————————————————————
+Object Manager -> the object you want to edit -> search layouts 
+
+When you search for a specific object, you can edit the search layout (columns that are shown when searching)
+	EX: you want to see the account rating, account phone, account owner, etc when in list view
+	
+From here, you can add the columns that are displayed when you search for that object
+
+This can be edited by profile
+——————————————————————————————————————————
+You can also independently select the fields to display when in an object list view to easily filter searches
+	How: Click the gear icon, select 'fields to display'.	
+——————————————————————————————————————————

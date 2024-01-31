@@ -1,0 +1,13 @@
+Formulas 
+——————————————————————————————————————————
+Sometimes you will want to automatically grab info from the parent object and display it on the child object
+	EX: parent is account and project is child
+		you want to automatically grab the account phone number and put it on the project object 
+
+Object Manager -> Fields and Relationships -> New -> Formula
+——————————————————————————————————————————
+Usually, you will not be able to use a simple formula, so you will have to use an advanced formula.
+
+For formatting, you can find some advanced formula formatting for what you want on google 
+	EX: phone formatting for (917)-123-4567
+——————————————————————————————————————————

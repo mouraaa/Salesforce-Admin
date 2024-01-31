@@ -1,0 +1,20 @@
+Field Level History Tracking 
+——————————————————————————————————————————
+https://help.salesforce.com/s/articleView?id=sf.tracking_field_history.htm&type=5
+
+Object Manager -> the object you want to edit -> fields and relationships -> enable field tracking
+
+This will track the changes done on a field. This can be tracked if you enabled field level tracking AND put the 'history' field in the page layout under related lists.
+
+You can also do the same for the history tracking for the overall project in the details page.
+
+Note: You can only track histroy on 20 so if you have mroe than 20 fields, choose the 20 that will most likely be changed
+
+If you set track history after youve already made changes, it does not record changes made before you've enabled it. It only tracks changes done after this feature has been enabled.
+——————————————————————————————————————————
+Page Layout:
+
+To get the 'history related list on your page layout, you can do this straight from the page layout page in the object manager or you can go to the actual object, click the gear icon and click edit page and click the details and select the layout you will edit and go to the information secton and start dragging items
+
+Remember, you haven't made any changes to the lightning page, you've only made changes to the underlying page layout. 
+——————————————————————————————————————————

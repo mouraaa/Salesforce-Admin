@@ -1,0 +1,14 @@
+Session Settings:
+——————————————————————————————————————————
+Security settings regarding the session
+
+Examples below:
+session timeout
+caching
+
+Regarding caching, sometimes you will edit a page but it takes a while to show up when you save.
+
+Its not best practice to deselect 'enable secure and persistent browser caching to improve performance' bc this will affect all users and make it slower since now they are not loading pages from cache memory but they have to wait for it to hit the salesforce server and for the page to return.
+
+Reccomendation: Turn it off when you are using a sandbox environment so you can edit quickly and test quickly but leave it turned on in the live instance
+——————————————————————————————————————————

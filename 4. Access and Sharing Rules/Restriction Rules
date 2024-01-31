@@ -1,0 +1,10 @@
+Restriction Rules: 
+——————————————————————————————————————————
+Object Manager -> object you want to restrict -> restriction rules
+
+You can restrict what records a user can see based on user and record criteria. This goes further than after org wide defaults, hirarchy, sharing, etc
+
+Restriction rules are set in place to allow users to only see a specific type of record, not to take away certain types of records
+
+Not all objects can have restriction rules. Restriction rules are available for custom objects, external objects, contracts, tasks, and events.
+——————————————————————————————————————————

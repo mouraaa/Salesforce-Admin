@@ -1,0 +1,27 @@
+Multi Select Pick List:
+——————————————————————————————————————————
+It is often not advised to use multi pick list for the below reasons:
+
+	1. you have to include historical data when adding new data to a multi-select field. 
+		EX: You currently have multiple events in the event field. You would like to add a new event. You would have to make sure all prior events are included in the update or import data. If not, the old events will be overwritten, leaving just the new event selected in the field.
+
+	2. Reporting is also difficult with multi-select picklists. 
+		-multi-select fields in reports separates selections by a semicolon without a space, giving them an unprofessional appearance
+		-picklist selections are automatically truncated at 40 characters, also making them look bad
+		-reports cannot use the “equals” operator and have to use the “contains” operator, making grouping data for reporting difficult
+
+	3. Multi-select fields also present a problem when duplicating	
+		EX: if you merge Record A, Record B, and Record C into Master Record D, only Record D’s multi-select data will remain. And the only way around this issue is to merge that data manually.
+
+	4. Multi-select picklists are also difficult to use in Salesforce automation.
+		-Apex triggers quickly become complicated using semicolon-delimited strings
+		-You need to separate selections from one another with semicolons before you can use any individual selection in Apex automations.
+		-Salesforce Workflows cannot update multi-select picklists. (ie: cannot include multi-select picklists in any Salesforce Flow automation)
+
+	5. Multi-select fields may or may not work with your Salesforce integrations and AppExchange apps.
+		Many apps outright do not support multi-select fields. That means you cannot use the app to edit, update, or otherwise manipulate multi-select picklist fields at all. Some apps do support them but have their own issues with using the field.
+——————————————————————————————————————————	
+Links:
+
+https://blog.insycle.com/salesforce-multi-select-picklists#the-issues-with-salesforce-multi-select-picklists
+——————————————————————————————————————————	

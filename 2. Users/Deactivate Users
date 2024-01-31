@@ -1,0 +1,8 @@
+Deactivating Users:
+——————————————————————————————————————————
+Users -> Users
+
+If a user is tied to things such as scheduled reports or if theyre an automation user, you will have to reassign those to a new user
+
+You cannot delete a user, you can only deactivate a user. This is for audit purposes and trail history.
+——————————————————————————————————————————

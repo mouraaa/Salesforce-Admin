@@ -1,0 +1,14 @@
+Role Hierachy (Users -> Role)
+——————————————————————————————————————————
+Hierarchy has to do with what records users can see and do to those records, regardless of the organization-wide default settings.
+
+Users at the top can see the records of people under them, but users at the bottom cannot see the rows owened by their higher ups.
+
+Similarly, people at the same level cannot see each others records (with the exception of sharing rules)
+
+You can create new roles and assign users to them here
+
+In a real org, you should record what the hierarchy was before editing it just in case you need to go back to it.
+——————————————————————————————————————————
+When you create a custom object, it will automatiallty grant access using role hierarchy. You can change this if you want in security -> sharing settings and it will be at the very bottom since its the last object you created
+——————————————————————————————————————————

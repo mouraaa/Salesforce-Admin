@@ -1,0 +1,12 @@
+Adming User Logins:
+——————————————————————————————————————————
+Users -> Users
+
+As as admin, you can log into any user by searching that user and clicking login. However, the user must grant you access to do so. This is helpful for troubleshooting certain issues that are user specific.
+
+If you do, the login history wont appear as if the user logged in to differentiate between admin log in and user login.
+
+Ensure that the policy is in place
+
+Setup Search -> Login Access Policies -> Admins can login to any user 
+——————————————————————————————————————————

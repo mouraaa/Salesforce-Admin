@@ -1,0 +1,21 @@
+Company Settings
+——————————————————————————————————————————
+Company Information:
+	Org name, phone, primary contact, fax, 
+	locale (how dates, numneric dates, etc are displayed)
+	language (if the user has a diff language set than the user setting, then it will override the default language)
+	time zone (typically where HQ is located for the org but can be overriden by the user as well)
+	number of licenses
+	data and file storage
+	currency 
+		-the org will only have 1 currency out the box
+		-if you enable multiple currencies, you will have to updaet the exchange rates manually
+		-you should download/create an app that updates the exchange rates for you aitomatically daily/hourly, etc
+
+Calendar Settings:
+	fiscal year (standard vs custom)
+	holidays (when you create a new holiday, you must then add it to each of your business hours)
+
+Company Settings:
+	business hours (if a disaster hits, you can create new business hours and save that as your active hours, you can create extended hours, etc)
+——————————————————————————————————————————

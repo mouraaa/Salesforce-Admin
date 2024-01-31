@@ -1,0 +1,12 @@
+Creating a user: (Users -> Users)
+——————————————————————————————————————————
+Ensure that generate a new password and send email is checked 
+
+You can create up to 10 users at the same time.  
+
+Note: There are a limited number of users an org can have based on the number of licenses
+——————————————————————————————————————————
+Every user has to be assigned a single profile. A user cannot have multiple profiles. Its always preferable to assign users a custom profile as the standard ones have restrictions that cannot be changed.
+
+Users do not have to be assigned to a role but its best practice to do so
+——————————————————————————————————————————

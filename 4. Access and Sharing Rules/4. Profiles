@@ -1,0 +1,23 @@
+Profiles (Users -> Profiles)
+——————————————————————————————————————————
+Profiles define how users access objets and data and what they can do within the application. It controls what apps the user has access to.
+
+Other things that profiles have access to:
+	-session settings
+	-password policies
+	-login IP ranges 
+		-users using this profile can ONLY log in from specific IP ranges. Otherwise the login is denied)
+	-login hours 
+		if you are still logged on after the end time, and you make a change and save after the end time, that save will NOT hit the database. You will be in read only mode if youre still logged on after end time
+	-etc
+
+Profiles can either be standard OOB or a custom profile. 
+Its always preferable to assign users a custom profile as the standard ones have restrictions that cannot be changed.
+
+Each profile has to be assigned to a user licence which also has some features enabled or disabled to it.
+——————————————————————————————————————————
+Note: Profile level changes override the organization session settings.
+	ex: profile session settings will override the org wide session settings
+
+You can see which users are assigned to each profile.
+——————————————————————————————————————————

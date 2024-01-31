@@ -1,0 +1,42 @@
+Team Access
+——————————————————————————————————————————
+A team is a group of users that work together on an account, sales opportunity or case. Record owners can build a team for each record they own. The record owner adds team members and specifies the access level each member has to the record
+
+Only owners, people higher in the hierarchy, and administrators can add team members and provide more access to the member. 
+
+A team member with read/write access can add another member who already has access to the record with which the team is associated. The team member can't provide them additional access.
+
+Creating a team member in the app creates two records: a team record and an associated share record. 
+
+There is only one team per record (Account, Opportunity, or Case).
+——————————————————————————————————————————
+You must first enable teams by searching teams in the setup search.
+
+Ex: enabling account teams
+	1. Search teams -> account teams
+	2. enable
+	3. It will ask you which page layouts you want to add the related list in and if to add it to any custom user page layouts
+	4. Once approved, you can set up or replace team roles or you can disable account teams
+	5. Once approved, you will see the new account teams related list under accounts
+
+You can set up a default team if the same members usually are the same people for all accounts
+——————————————————————————————————————————
+Note: Case teams do not have the option to add the related list normally as in step 3 above. You must manually do it through the lightning app/page layout builder
+
+You need to edit the underlying page layout, NOT the lightning page. The lightning page is the layer above the page layout. (needed for step 3)
+
+First enable case teams normally as in steps 1-2 above.
+
+Then to add to the page layout: 
+	1. Click the gear icon
+	2. Click edit page
+	3. Click the record under detail. This will show you a list of all the page layouts that are available in your org for the case objet. The one that says previewed is the one you are viewing. Select that one to edit
+	4. Click related lists and it will take you to the start of related lists
+	5. Drag and drop 'case team' to the related lists section
+	6. Click save
+
+Once you click save, you do not need to save the lightning page because again, you didnt change anything to the lightning page. You only changed the udnerlying page layout which you already saved in step 6.
+
+Once done, you can find it in cases under the related list section.
+
+——————————————————————————————————————————

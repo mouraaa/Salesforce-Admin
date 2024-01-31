@@ -1,0 +1,13 @@
+Validation Rules
+——————————————————————————————————————————
+Object Manager -> Validation Rules
+	You can also navigate to the field in question and set a validation rule from there.
+
+Sometimes you need to create validation rules for fields you created.
+	EX: you create a percentage field with up to 3 digits left of the decimal (because 100% has 3 digits)
+		however, a user can technically enter in 999%
+
+Create a valdiation rule using formulas and enter an error message.
+
+Note: This will not fix anything that was done before the validation rule was created.
+—————————————————————————————————————————— 

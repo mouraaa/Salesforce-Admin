@@ -1,0 +1,40 @@
+Terminology:
+——————————————————————————————————————————
+Org: An org is a deployment of salesforce provided to a customer that has a defines set of licenses users. An org contains all data and applications.
+
+Funnel Process: lead -> contact/account -> opportunity
+
+	-Lead: represents any indivudal or company entering your CRM but not yet ready for the sales discussion.
+	-Contact: an indivudal who has been qualified and converted from a lead to pursue a sales opportunity
+	-Account: an account is an organization, company, partner, or competitor that you want to track.
+	-Opportunity: represents a sales activity for a particular produt or service
+
+——————————————————————————————————————————
+Know the differences:
+
+User: a user on salesforce
+
+Role: determines what records can be seen relative to others in the organization hierarchy. Your boss can see his records and anyone underneath him and you can see yours and anyone underneath you, etc.
+
+Profile: a group of settings & permissions (object permissions, field permissions, tab settings, etc) that is assigned to a user.
+	Note: Many users can be assigned to a profile but only one profile can be assigned to a user
+
+Permission sets: a collection of permissions that give a profile extended access without changing their profile. Assigned at the user level
+	Example: you want two users to have API access but they’re part of a profile that the entire sales department is using. Create a permission set and assign it to those two specific users.
+
+——————————————————————————————————————————
+Know the differences:
+
+App: a group of tabs and objects that work to provide the app’s functionality. An app has a name and a logo. Think of an app as an app on your phone or desktop. Apps are opened through the app launcher on the far left (the 9 dots)
+	EX: Sales app
+
+Tabs: a tab is the user intreface element that allows you to see the object data
+	EX: within the sales app is the home, leads, accounts, contacts tabs
+
+Objects: database tables that store data. 
+	EX:  leads, accounts, contacts, etc
+
+Records are rows in the object.
+	EX: Susan Smith is a record under users
+
+——————————————————————————————————————————

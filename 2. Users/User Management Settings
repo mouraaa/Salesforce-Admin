@@ -1,0 +1,14 @@
+User Management Settings:
+——————————————————————————————————————————
+User -> User Management Settings
+
+Highly suggested is eo enable enhanced profile user interface
+	this will alow the profile page (setup search -> profiles to look a lot more clean 
+
+
+Other settings that are under user settings can be found here
+	-allow external users to deactivate their own accounts
+	-hide personal info fields in user records from external users
+	-allow user personal dataa to not be recognized in salesforce 
+	-etc
+——————————————————————————————————————————

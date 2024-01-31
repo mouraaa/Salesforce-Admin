@@ -1,0 +1,35 @@
+Org Wide Default Sharing Settings: (OWD: org wide default)
+——————————————————————————————————————————
+Sharing Settings -> Org Wide Defaults
+
+Organization-wide sharing settings specify the default level of access that users have to each others’ records. 
+
+You use organization-wide sharing settings to lock your data to the most restrictive level. Use the other record-level security and sharing tools to selectively give access to other users. 
+
+EX: The org wide default is for users to only have access read only for opportunities but you can give object-level permissions to read and edit opportunities.
+
+Organization-wide defaults are the only way to restrict user access to a record.
+
+——————————————————————————————————————————
+1. Controlled by Parent: 
+
+A user can perform an action (such as view, edit, or delete) on a contact or order based on whether he or she can perform that same action on the record associated with it.
+	EX: if a contact is associated with the Acme account, then a user can only edit that contact if he or she can also edit the Acme account.
+
+2. Private: 
+Only the record owner, and users above that role in the hierarchy, can view, edit, and report on those records.
+
+3. Public Read Only	
+All users can view and report on records but not edit them. Only the owner, and users above that role in the hierarchy, can edit those records.
+
+4. Public Read/Write	
+All users can view, edit, and report on all records.
+Note: only the record creater can alter the sharing settings or delete the account.
+
+5. Public Read/Write/Transfer	
+All users can view, edit, transfer, and report on all records. Only available for cases or leads.
+Note: only the record creater can alter the sharing settings or delete the account.
+
+6. Public Full Access	
+All users can view, edit, transfer, delete, and report on all records. Only available for campaigns.
+——————————————————————————————————————————

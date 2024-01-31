@@ -1,0 +1,28 @@
+Field Level Security: (FLS)
+——————————————————————————————————————————
+Object Manager -> the object you want to edit -> fields and relationships -> the field you want to edit -> set FLS
+
+This will show all the profiles and if this field is visible/read only to that profile
+
+Visible: Visible and user can edit
+Read Only: Will autoamtically check visible but the user cannot edit
+
+——————————————————————————————————————————
+Field level security at the profile level:
+
+You can also do the above in a different way. 
+
+1. Search Profile
+2. Select the profile you want to change the FLS
+3. Select Object Settings
+4. Select the object
+5. Edit the field permissions
+6. Save
+——————————————————————————————————————————
+Notes:
+
+This can take a while (5-15 min) for salesforce to update even if you saved it.
+
+'Where is this used' button will show all page layouts this custom field is on
+	note: standard fields do not have this option
+——————————————————————————————————————————

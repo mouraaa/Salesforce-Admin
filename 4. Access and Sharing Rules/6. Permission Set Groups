@@ -1,0 +1,10 @@
+Permission Set Groups
+——————————————————————————————————————————
+Permission Sets vs Permission Set Groups
+
+Overtime, you might find that you assign the same permission sets to a large group of users. Trying to remember all the permission sets that you assign to these group of users is tiresome, hence permission set groups are a group of permission sets
+
+Ex: Creating a new permission set group called 'Support Baseline' and assigning that group permissions sets such as 'service analytic user', 'service clous user', 'delete cases' etc
+——————————————————————————————————————————
+Combined permissions is where you see all the combined permissions of the indivudal permission sets in the group
+	EX: if you navigate to combined oermissions -> Permission Set Group Overview -> Object Permissions -> Cases, you will see all the accesses combined from the indivudal permission sets

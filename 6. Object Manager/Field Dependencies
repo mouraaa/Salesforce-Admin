@@ -1,0 +1,8 @@
+Field Dependencies: 
+——————————————————————————————————————————
+Object Manager -> Fields and Relationships -> Field Dependencies
+
+Sometimes you have a field that is dependent on another field
+	EX:on an example project object, the phase on the project depends on the status of the project
+
+——————————————————————————————————————————

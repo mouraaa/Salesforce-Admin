@@ -1,0 +1,18 @@
+Locked Users:
+——————————————————————————————————————————
+Users -> Users
+
+Lock a user:
+
+If you cannot deactivate a user for any reason (if theyre the default workflow user, theyre seleted as part of a custom hierarchy field or if theyre on many scheduled reports and you still need to change that responsibility to someone but time of is of the essence)
+
+You can freeze the user. They will still remain an active user but they wont be able to log in.
+—————————————————————————————————————————— 
+Resolviong Locked Users:
+
+After a configurable number of failed password attempts, the user account will be locked.
+
+Admin must now unlock their account by navigating to the user and clicking 'unlock'
+
+Admin should reset their password.
+——————————————————————————————————————————

@@ -1,0 +1,18 @@
+Customizing Related Lists:
+——————————————————————————————————————————
+Object Manager -> object -> page layout -> select the page layout -> related lists
+
+You can add, remove, reorder related lists. You can edit the preview on a related list
+
+	1. Object Manager -> object -> page layout -> select the page layout -> related lists
+	2. Click the gear icon on the related list you want to edit and select the properties you want to show or remove
+
+——————————————————————————————————————————
+It is always advised to have enhanced related lists on.
+
+	1. go to the page 
+	2. click the gear icon and click edit page
+	3. navigate to the related lists
+	4. select 'enhanced lists' from the lookup menu. This might be defaulted to 'Default'
+
+——————————————————————————————————————————

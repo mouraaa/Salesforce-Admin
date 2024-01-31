@@ -1,0 +1,19 @@
+Creating Custom Objects (object manager)
+——————————————————————————————————————————
+Objects can be standard or custom made. All objects can be found in the object manager.
+
+To see the relationships between objects you can use the schema builder found in the object manager on the top right.
+
+——————————————————————————————————————————
+Creating a custom object:
+
+Typically, you will select 'In Development' for the deployment status to allow you to test without other users seeing it.
+Typically, youll be testing in a sandbox enviornment wheres theres not any regular users except for admins and developers so it doesnt hurt to put it in deployed status at some point
+
+——————————————————————————————————————————
+Sharing Rules
+
+When you create a custom object, it will automatiallty grant access using role hierarchy. You can change this if you want in security -> sharing settings and it will be at the very bottom since its the last object you created
+
+You can also now create sharing rules for that custom object in the same place
+——————————————————————————————————————————

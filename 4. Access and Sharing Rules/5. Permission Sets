@@ -1,0 +1,21 @@
+Permission Sets (Users -> Permission Sets)
+——————————————————————————————————————————
+Profiles vs Permission Sets
+
+Permission Sets were born because of the limited nature and nuiance of profiles. 
+	EX: a group of users that all need the same permissions except for 1-2 users that need more access
+		before, this would be resolved by creating multiple profiles, to the point that each user has a different profile which gets hectic
+
+Users can have multiple permission sets. You can see all permission sets a user has by going to users and hovering over permission set assignements
+
+permission sets extend/provide MORE access. It does not restrict access.
+
+Permission sets have less system settings than profile system settings
+
+Permission sets are good for ad-hoc requirements or for one off exceptions
+——————————————————————————————————————————
+Note: When you create a permission set, at first glance, a lot of the things are either not applicable, unchecked or says 'No Access'.
+	  However, this is not the case. If a profile already states that they have access, then applying a permission set to it does not restrict access.
+
+——————————————————————————————————————————
+You can set a permission set with an expiration date if required.

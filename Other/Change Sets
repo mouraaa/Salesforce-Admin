@@ -1,0 +1,19 @@
+Change Sets
+——————————————————————————————————————————
+Links:
+
+https://trailhead.salesforce.com/content/learn/modules/declarative-change-set-development
+
+https://help.salesforce.com/s/articleView?language=en_US&type=5&id=sf.changesets_best_practices.htm
+——————————————————————————————————————————
+Change sets are the native way to move metadata customizations between sandboxes and your production environment. 
+
+EX: if you create a new field in your sandbox, use change sets you can move this field into another sandbox or to production
+——————————————————————————————————————————
+Upgrade to the package development model if:
+	1. you have hundreds or thousands of things to update
+	2. want to do certain changes that cannot be done using change sets (ex: deleting fields)
+	3. want a version control
+
+https://trailhead.salesforce.com/content/learn/modules/sfdx_dev_model
+——————————————————————————————————————————

@@ -1,0 +1,34 @@
+Sharing Rules 
+——————————————————————————————————————————
+Automatic Sharing Rules: (Sharing Settings -> Sharing Rules)
+
+Sharing rules are used to make automatic exceptions to your org wide sharing settings for some users. They are created at the object level
+
+You can only use sharing rules to grant wider access to data, not to restrict data.
+
+Example: You want to share accounts within the banking industry to all roles and subodinates of the 'Sales WW' role. 
+
+The Sales WW role and their subordinates originally did not have access to that info, but now they would
+——————————————————————————————————————————
+Manual Sharing:
+
+Sometimes it’s impossible to define a consistent group of users who need access to a particular set of records. 
+
+Record owners can use manual sharing to give read and edit permissions to users who don’t have access any other way. Manual sharing isn’t automated like organization-wide sharing settings, role hierarchies, or sharing rules.
+
+But it gives record owners the flexibility to share records with users that must see them.
+
+Note: Manual sharing is removed when the record owner changes
+——————————————————————————————————————————
+Public Groups:  Users -> Public Groups
+
+A group consists of a set of users. A group can contain individual users, other groups, or the users in a particular role or territory. It can also contain the users in a particular role or territory plus all the users below that role or territory in the hierarchy.
+
+You can use groups in the following ways.
+	-To set up default sharing access via a sharing rule		
+	-To share your records with other users
+
+Public Groups vs Permission Set Groups:
+
+Public groups contain users while Permission Set Groups manage permission sets based on user needs.
+——————————————————————————————————————————

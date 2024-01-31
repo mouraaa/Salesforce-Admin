@@ -1,0 +1,30 @@
+Home Page Layout:
+——————————————————————————————————————————
+Each app has a home page that can be edited. These can be edited in the lightning app builder. The lightning app builder can be used to edit home pages, app pages and record pages for apps
+
+1. Navigate to the app home page 
+2. Click the setup gear icon 
+3. Edit page
+4. At the top, click pages and select new page 
+5. Choose 'Home Page'
+
+Note: You can also search lightning app builder from the setup search and click new.
+
+Once you are done editing the page, you can activate the page immediately or keep it in draft mode and you an activate it later.
+
+Home pages an be assigned at different levels.
+	1. Org Default: all home pages in any app will take this new page
+	2. App Default: a specific app will have the new home page no matter the profile
+	3. App and Profile: specfic profiles in a specific app will have the updated home page
+
+Home page layouts can be assigned by profile, not users.
+——————————————————————————————————————————
+Notes: 
+
+Theres some things related to home pages that can only be edited in classic and vise versa
+
+You cannot delete a page that is in use. 
+
+If an app already has a dedicated home page, and you create a new home page that you set as the org default, it will not override the existing app default in place. It only only affect all other app home pages that dont have a dedicated home page
+
+——————————————————————————————————————————

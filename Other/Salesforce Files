@@ -1,0 +1,10 @@
+Salesforce Files
+——————————————————————————————————————————
+Setup search -> files
+
+You can use 'files' for your VCS (version control system) tp upload your documents. If you click the buttom arrow on the right, you can upload a new version and you can track all versions by selectinv 'view file details'
+
+You can share these files with people inside or outside the org. You can allow people to view only or collaborate.
+
+If multiple people are making changes at the same time and upload a new version, you will have to do a document compare and merge the changes (think github)
+——————————————————————————————————————————

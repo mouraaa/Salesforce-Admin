@@ -1,0 +1,29 @@
+List Views:
+——————————————————————————————————————————
+Helpful to find rows quickly. You can search by filters using the funnel icon.
+
+Note: Filters do not go away after closing/logging out, etc. If you cant find an account, make sure theres no filters.
+——————————————————————————————————————————
+You can create a new list view by clicking the gear icon.
+	You can also clone, rename, delete, edit list filters, etc
+
+You can also select the fields to display when in list view to easily filter searches
+	How: Click the gear icon, select 'fields to display'.	
+——————————————————————————————————————————
+Display Types
+
+	1. Table
+
+	2. Kanban:
+		-enables users to visualize record progress through business processes
+		-speeds up record editing via the use of drag-and-drop functionality
+		-very useful for opportunities to see the count and sum of different phases in opportunities
+
+	3. Split View: 
+		-Split between a list on the left and info on the right. 
+		-useful for going skimming through a set of records. Removes the need for navigating back-and-forth between the list and records.
+		-you an hide the side panel if you want more space and return it using the same button
+		-cannot change filters in this view but you can set the filters in table view then switch to list split view to view the filtered results
+		-cannot create new lists from this view but you can create the list view in table view then switch to split view
+	
+——————————————————————————————————————————

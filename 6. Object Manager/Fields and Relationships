@@ -1,0 +1,30 @@
+Fields and Relationships:
+——————————————————————————————————————————
+When you create a custom object, the fields and relationships for that will be very limited so you will have to add any required fields 
+
+If you are adding a new 'master-detail relationship' field, you have to use the child and create that field, not the parent
+
+If you are asked to convert a field type to another, its always better to delete the old field and create a new field and import the old values bc
+	1. changing the data type of a field can have implications for existing data (ie: data loss) 
+	2. dependencies and integrations that rely on the field being modified can be impacted
+	3. validation rules, workflows, or process builder flows associated with the field can be impacted
+
+——————————————————————————————————————————
+Field Validations and Dependencies:
+
+You can create validation rules for these fields and have field dependencies
+	(see the validation rules and field dependency notes for more info)
+——————————————————————————————————————————
+Deleting and Restoring Fiedls:
+
+You can delete and restore fields from an object. There is a 15 day grace period once deleted where you can restore that field along with the data. You can choose to erase the field, which would skip the 15 day grace period.  
+
+It's always recommended to run a data export before deleting a custom field by clicking the data report.
+
+Once an object is deleted, even if restored there are certain things to note that you might want to change manually.
+	1. the developer/API name will change to nameoffield_del 
+	2. the field would be removed from all edited page layouts
+	3. if the field was required, its no longer required
+	4. the field was removed from all reports
+	5. the field as remvoed from any app exchange packages that contianted it directly 
+——————————————————————————————————————————
