@@ -1,0 +1,28 @@
+Processes
+——————————————————————————————————————————
+A process is the sequential graph at the top of the record that shows what phase the object is in.
+	Ex: Open Not Contacted -> Working & Contacted -> Closed Converted -> Closed Not Converted
+
+You dont need to create processes until theres a need
+	EX: sometimes you will have leads for software development, and sometimes youll have a lead for installation
+——————————————————————————————————————————
+Creating a new standard object process:
+	EX: lead process (for leads), sales process (for marketing), support process (for cases)
+
+	1. setup Search -> lead/sales/support process
+
+	2. click new 
+		-it will be very basic at this step
+
+	3. navigate to lead record type
+		-this can be done at the process page using the hyperlink or
+		-object manager -> the object you are building the process on -> record types
+
+	4. create or assign the process to a record type. 
+		-its best practice to name the lead record type the same as the process name
+
+	5. updating status fields of the process
+		-object manager -> object that you are building the process on -> fields and relationships -> [object] status
+		-when you create new statuses, they will be at the end of the process
+		-after you save, in the same place, you can click reorder.
+——————————————————————————————————————————

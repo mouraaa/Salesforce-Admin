@@ -1,0 +1,51 @@
+Record Types
+——————————————————————————————————————————
+Record Types are a way of grouping many records of one type for that object. Record Types should be used for records that have the same concept, but need to be different in execution. 
+
+Record types make life easier for the end user - only showing them what they need. They tell the user what is required for that specific record type without bothering them with fields that are irrelevant.
+
+Record types can be applied to any standard or custom object.
+
+Benefits:
+	1. each record page can have different
+		-page layouts
+		-fields
+		-required fields
+		-picklist values
+	2. reduces the number of fields on the page
+	3. improves data quality (sometimes users are forced to fill out record types which can lead to poor quality)
+
+——————————————————————————————————————————
+EX: Cases can be of multiple types
+		1. Suggestion
+		2. Bug (If a customer needs help with a bug, I would need steps to reproduce the bug)
+		2. Question
+		4. Other 
+
+Since they’re all records of the same object, you can still report on SLAs in one place
+——————————————————————————————————————————
+How to create record types:
+	
+	1. create new page layouts for each record type 
+		-object manager -> the object you want to create record pages of -> page layouts
+		-its always reccomended to add the 'record type' field on the page layout so when you create a record, and look at it in the future, you dont have to guess what record type it is.
+		-a profile can have multiple page layouts depending on where they are in the UI 
+			EX: a service cloud user can have the 'bug' page layout if hes in a bug record type or the 'question' page layout if hes in the question record type
+
+	2. create all the custom fields you need for each record type
+		-assign each field on the corresponding page layout
+
+	3. if its a standard object (lead, case, opportunity), you must create a process 
+		-see process notes for more detail
+
+	4. create each record type 
+		-object manager -> the object you want to create record types of -> record types
+		-select all the profiles that can use this record type
+		-assign each record type to the correct page layout you created in step 1
+
+	5. You can then edit picklists (ie: making certain values visible/not visible)
+		-navigate to the record type page (object manager -> the object you are building a process on -> record types)
+		-scroll down to 'picklists' available for editing 
+		-this is good for when you have the same picklists on multiple record types but want different values for each record type
+
+——————————————————————————————————————————
