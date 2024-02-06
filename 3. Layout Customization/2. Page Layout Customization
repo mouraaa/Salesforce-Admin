@@ -29,3 +29,10 @@ Page Layouts an be assigned at different levels.
 	2. App Default: a specific app will have the new [ex: account record] page no matter the profile
 	3. App and Profile: specfic profiles in a specific app will have the updated [ex: account record page] page
 ——————————————————————————————————————————
+You can also move, delete and hide fields, or add filters (ex: only show this field if this field is ...) etc directly via dynamic forms in 'edit page'
+
+	1. navigate to settings - > edit page 
+	2. click the details section
+	3. upgrade to dynamic forms (right hand side of the screen)
+	4. you can then click 'edit page' via setup at any time and add/move/remove fields here
+——————————————————————————————————————————

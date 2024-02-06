@@ -3,6 +3,13 @@ Field Dependencies:
 Object Manager -> Fields and Relationships -> Field Dependencies
 
 Sometimes you have a field that is dependent on another field
-	EX:on an example project object, the phase on the project depends on the status of the project
+	EX: on an example project object, the phase on the project depends on the status of the project
 
+——————————————————————————————————————————
+You can also show and hide fields, or add filters (ex: only show this field if this field is ...) etc via dynamic forms
+
+	1. navigate to settings -> edit page 
+	2. click the details section
+	3. upgrade to dynamic forms (right hand side of the screen)
+	4. you can then click 'edit page' via setup at any time and add/move/remove fields here
 ——————————————————————————————————————————

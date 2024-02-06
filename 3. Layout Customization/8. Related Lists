@@ -8,6 +8,17 @@ You can add, remove, reorder related lists. You can edit the preview on a relate
 	2. Click the gear icon on the related list you want to edit and select the properties you want to show or remove
 
 ——————————————————————————————————————————
+Not all objects will come with related lists on the page layout to add.
+	EX: custom objects wont come with the 'cases' related field
+
+to add, do the following.
+
+	1. object Manager -> the object you want you put on your custom object (in this case it is cases) -> fields and relationships
+	2. create a lookup relationship field and relate it to the object
+	3. save
+
+after saving, you will find it on the related lists section of your object.
+——————————————————————————————————————————
 It is always advised to have enhanced related lists on. This is so you can have the action button enabled so you can sort, perform mass actions, resize columns and wrap text.
 
 	1. go to the page 
@@ -15,4 +26,11 @@ It is always advised to have enhanced related lists on. This is so you can have 
 	3. navigate to the related lists
 	4. select 'enhanced lists' from the lookup menu. This might be defaulted to 'Default'
 
+——————————————————————————————————————————
+Users can ustomize their own related lists (ie: removing and reordering related lists)
+
+	1. click their profile icon on the right hand side
+	2. click settings
+	3. on the left hand side, choose display and layout -> customize my pages
+	4. choose the object you want to configure
 ——————————————————————————————————————————
