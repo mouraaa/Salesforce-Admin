@@ -1,0 +1,11 @@
+Web to Lead:
+——————————————————————————————————————————
+Setup Search -> Feature Settings -> Marketing -> Web-to-Lead
+
+Web-to-lead is a process you can apply to your website forms that allows marketers to automatically push form submissions on their website into their Salesforce CRM. They automatically capture visitor information and store it directly into Salesforce
+
+You will need a website to put the HTML code that salesforce will gnerate once you create your web to lead. 
+
+Once that form is embedded onto the website, the leads will trickle into salesforce automatically anytime someone submits the form.
+——————————————————————————————————————————
+Note: if you have multiple record types, it will take the default record type 

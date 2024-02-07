@@ -1,0 +1,16 @@
+Assignment Rules
+——————————————————————————————————————————
+Setup Search -> Feature Settings -> Marketing -> Assignment Rules
+
+Assignment rules automate your organization’s lead generation and support processes. 
+
+Lead assignment rules to specify how leads are assigned to users or queues. 
+Case assignment rules to determine how cases are assigned to users or put into queues.
+
+Lead assignment rules can assign leads regardless of whether leads are created manually, generated from Web-to-Lead forms, or imported
+Case assignment rules can assign cases regardless if they were manually or automatically using Web-to-Case, Email-to-Case, etc
+——————————————————————————————————————————
+EX: 
+	If a lead source came through phone inquiry, assign the lead to Amr Abedo
+	If a lead source came through any other way, assign the lead to Julie Chavez
+—————————————————————————————————————————— 

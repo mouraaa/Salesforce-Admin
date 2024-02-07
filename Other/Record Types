@@ -49,3 +49,13 @@ How to create record types:
 		-this is good for when you have the same picklists on multiple record types but want different values for each record type
 
 ——————————————————————————————————————————
+If your profile has access to multiple record types, you have the ability to
+	
+	1. when you create a new record, you can default the pop up for which record type you want to create
+		profiles -> (choose the profile you want to edit) -> object settings -> (the object that has many record types) -> record types
+
+	2. when you create a new record, you can disable the pop up and automatically create a record based on the default in (1) 
+		-profile icon -> settings -> display and layout -> set default record types 
+		-note: you can only select the default record type set in (1) 
+			ie: if the default record type for your profile is 'bug', and you have access to creating 'question', you cant make your default with no popup be 'question'. You can only assign your default to 'bug'
+——————————————————————————————————————————
