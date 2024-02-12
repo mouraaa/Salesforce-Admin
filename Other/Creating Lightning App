@@ -1,0 +1,8 @@
+Creating New Lightning Apps:
+——————————————————————————————————————————
+setup search -> app manager -> new lightning app
+
+You can enable utilities which will become available are at the very bottom of the screen in your app. 
+	-if you choose notes, you have to enable it (before/after doesnt matter) in seyp search -> note settings
+	-some utilities (like history) only work in console apps and not in standard apps
+——————————————————————————————————————————

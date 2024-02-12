@@ -37,7 +37,7 @@ Creating a new custom object process/path:
 ——————————————————————————————————————————
 Updating status fields of the process
 
-	-object manager -> object that you are building the process on -> fields and relationships -> [object] status -> picklist values
+	-object manager -> [object] -> fields and relationships -> [object] status/stage (stage if the object is is opportunity) -> picklist values
 	-you can create, edit, delete, deactivate, default and reorder the process values here
 
 You can also include values that can be considered 'converted'
@@ -48,4 +48,6 @@ You can also include values that can be considered 'converted'
 		-When you convert, one of the fields on the bottom will ask which conversion type
 		(ex:converted or converted next quarter)
 
+You can also change the forcast and the percentage of opportunity in the same page. (these things are used for forcasts and reports  )
+	EX: you want to change 'qualification' stage to 15% and you want the forcast to be in the 'pipeline'
 ——————————————————————————————————————————

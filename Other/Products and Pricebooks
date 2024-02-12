@@ -1,0 +1,44 @@
+Products & Pricebooks:
+——————————————————————————————————————————
+Products can be sold as part of an opportunity.
+Products are part of a pricebook. 
+
+app search -> products 
+app search -> pricebook
+
+Each opportunity can only have one pricebook. 
+You cant have produts from multiple pricebooks onto one opportunity. You must either create a new pricebook with all the products you want or create different opportunities for each pricebook.
+
+Once you select a pricebook on an opportunity, you then select what products from that pricebook will be added onto the opportunity.
+
+When you create a product:
+	-you can add the product onto multiple pricebooks
+	-you can give it a standard price but users can update that price when adding the product onto the opportunity
+
+Note: not all companies will provide products. Some companies primarily offer services. However, if a company does primarily provide products, you can prompt users to add products to opportunities:
+	setup search -> opportunity settings -> prompt users to add products in opportunities
+——————————————————————————————————————————
+Product Scheduling: 
+	setup search -> feature settings -> sales -> products -> produt schedules settings
+
+Sometimes, an opportunity will requrie some products to be shipped in cycles (ie: not all at once). 
+
+Without product scheduling, if you add a product on an opportunity, the date field only specifies the date by which all of them will be delivered. (ie: doesnt specifiy which products will be delivered when)
+
+Also, some products will be paid for in phases as well. 
+
+Solution: 
+	1. Must enable product scheduling (quantity scheduling & revenue scheduling)
+	2. Once its enabled, you have to add some fields onto the product page layout
+		-go to any product, then edit the page layout and ideally you can add a section and call it 'scheduling' and add all revenue and quantity fields
+		-you dont have to click activate since you didnt make a change to the lightning page, just the underlying page layout
+
+quantity schedule: when delivery of products is made
+	is suitable if your customers pay once but receive the product in increments, for example, as with an annual magazine subscription for a monthly magazine. A quantity schedule defines the dates, number of units, and number of installments for payments, shipping, or other use as determined by your company.
+
+revenue schedule: when payments are made
+	suitable if your customers make regular payments but receive the product once, for example, if you sell customized products that are charged in installments but delivered once. A revenue schedule defines the dates, revenue amounts, and number of installments for payments, recognizing revenue, or other use.
+
+revenue and quantity schedule
+	suitable if your customers receive their orders on a delivery schedule and pay for the products using a payment schedule, for example, a monthly product subscription that’s paid for monthly.
+——————————————————————————————————————————

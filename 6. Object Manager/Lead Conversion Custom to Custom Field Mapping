@@ -1,0 +1,10 @@
+Custom to Custom Field Mapping During Lead Conversion
+——————————————————————————————————————————
+When a lead is converted into an account, a contact and an opportunity, all the standard fields that are on the original lead will automatically transfer over if there is an equivalent one on the account, contact and opportunity 
+	EX: lead name -> contact name, etc
+
+However, this doesnt apply for custom fields since Salesforce doesnt know if the custom fields are the same. To map custom to custom fields:
+	Object Manager -> lead -> fields and relationships -> map lead fields
+
+Now, anytime a lead is converted, mapped custom fields that exist on a lead/contact/account/opportunity will also automatiicaly transfer.
+——————————————————————————————————————————
