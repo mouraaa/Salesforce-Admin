@@ -16,8 +16,8 @@ When you create a product:
 	-you can give it a standard price but users can update that price when adding the product onto the opportunity
 
 Note: not all companies will provide products. Some companies primarily offer services. However, if a company does primarily provide products, you can prompt users to add products to opportunities:
-	setup search -> opportunity settings -> prompt users to add products in opportunities
-——————————————————————————————————————————
+	setup search -> opportunity settings -> prompt users to add products in opportunities & insert quantity of 1 
+ ——————————————————————————————————————————
 Product Scheduling: 
 	setup search -> feature settings -> sales -> products -> produt schedules settings
 
